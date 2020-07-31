@@ -154,10 +154,52 @@ transition: .5s;
 }
 /*******************Responsive**************/
 
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+     
+    
+    .hearderset h6{
+        font-size: 15px;
+          }
+          .hearderset h1{
+            font-size:40px ;
+          
+            }
 
+    .hearderset h3{
+        font-size:40px ;
+       
+    }
+ 
+   
+    .hearderset h2{
+        font-size:25px ;
+    }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+    
+   .heading{
+    padding-left: 15px;
+}
+      .heading h1{
+          font-size: 40px;
+      }
+      .heading h6{
+        font-size: 15px;
+    }
+
+      .pcentre{
+        margin-left: 25px;
+          margin-top: 15px;
+      }
+      .Margin-top-bottom{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+      
+}
+
+/* Extra small devices (phones, 400px and up) */
+@media only screen and (min-width: 400px) {
      
     
     .hearderset h6{
